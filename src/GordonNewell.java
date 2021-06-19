@@ -117,7 +117,7 @@ public class GordonNewell {
 
     void upisUtxtGN(){
         DecimalFormat df = new DecimalFormat("0.0000");
-        File potraznje = new File("C:\\Users\\marko\\IdeaProjects\\PRS\\resenje\\potraznje_analiticki.txt");
+        File potraznje = new File("resenje\\potraznje_analiticki.txt");
         try {
             FileWriter myWriter = new FileWriter(potraznje);
             myWriter.write("***Potraznje***\n");
@@ -138,7 +138,7 @@ public class GordonNewell {
     }
     void upisUtxtGNexcel(){
         DecimalFormat df = new DecimalFormat("0.0000");
-        File potraznje = new File("C:\\Users\\marko\\IdeaProjects\\PRS\\resenje\\potraznje_analiticki-excel.txt");
+        File potraznje = new File("resenje\\potraznje_analiticki-excel.txt");
         try {
             FileWriter myWriter = new FileWriter(potraznje);
             for(int i = 2 ; i <= 10 ; i++){

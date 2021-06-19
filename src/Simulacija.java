@@ -188,7 +188,7 @@ public class Simulacija {
 
     void upisUtxtSim(int time){
         DecimalFormat df = new DecimalFormat("0.0000");
-        File simulacija = new File("C:\\Users\\marko\\IdeaProjects\\PRS\\resenje\\rezultati-simulacije.txt");
+        File simulacija = new File("resenje\\rezultati-simulacije.txt");
         try {
             FileWriter myWriter = new FileWriter(simulacija);
             myWriter.write("***Simulacija***\n");
@@ -221,7 +221,7 @@ public class Simulacija {
 
     void upisUtxtSimexcel(int time){
         DecimalFormat df = new DecimalFormat("0.0000");
-        File simulacija = new File("C:\\Users\\marko\\IdeaProjects\\PRS\\resenje\\rezultati-simulacije-excel.txt");
+        File simulacija = new File("resenje\\rezultati-simulacije-excel.txt");
         try {
             FileWriter myWriter = new FileWriter(simulacija);
             for (int n = 10; n <= 20; n += 5) {
@@ -251,7 +251,7 @@ public class Simulacija {
 
     void upisUtxtUsrednjeno(int time){
         DecimalFormat df = new DecimalFormat("0.0000");
-        File usrednjeno = new File("C:\\Users\\marko\\IdeaProjects\\PRS\\resenje\\rezultati_simulacija_usrednjeno.txt");
+        File usrednjeno = new File("resenje\\rezultati_simulacija_usrednjeno.txt");
         try {
             FileWriter myWriter = new FileWriter(usrednjeno);
             int vremeSvihPoslova = time*60*1000;
@@ -363,7 +363,7 @@ public class Simulacija {
 
     void upisUtxtUsrednjenoexcel(int time){
         DecimalFormat df = new DecimalFormat("0.0000");
-        File usrednjeno = new File("C:\\Users\\marko\\IdeaProjects\\PRS\\resenje\\rezultati_simulacija_usrednjeno_excel.txt");
+        File usrednjeno = new File("resenje\\rezultati_simulacija_usrednjeno_excel.txt");
         try {
             FileWriter myWriter = new FileWriter(usrednjeno);
             int vremeSvihPoslova = time*60*1000;

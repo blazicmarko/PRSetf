@@ -9,9 +9,9 @@ public class Main {
         Simulacija simulacija = new Simulacija();
         simulacija.upisUtxtSim(60);
         simulacija.upisUtxtUsrednjeno(60);
-        gordonNewell.upisUtxtGNexcel();
-        buzen.upisUtxtBuzenexcel();
-        simulacija.upisUtxtSimexcel(60);
-        simulacija.upisUtxtUsrednjenoexcel(60);
+        //gordonNewell.upisUtxtGNexcel();
+        //buzen.upisUtxtBuzenexcel();
+        //simulacija.upisUtxtSimexcel(60);
+        //simulacija.upisUtxtUsrednjenoexcel(60); Korisceno za lakse izvlacenje podataka za EXCEL TABELE
     }
 }

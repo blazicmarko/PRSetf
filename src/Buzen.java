@@ -38,7 +38,7 @@ public class Buzen {
     void upisUtxtBuzen(){
         GordonNewell gordonNewell = new GordonNewell();
         DecimalFormat df = new DecimalFormat("0.0000");
-        File rezultati = new File("C:\\Users\\marko\\IdeaProjects\\PRS\\resenje\\rezultati_analiticki.txt");
+        File rezultati = new File("resenje\\rezultati_analiticki.txt");
         try {
             FileWriter myWriter = new FileWriter(rezultati);
             myWriter.write("****Rezultati****\n");
@@ -94,7 +94,7 @@ public class Buzen {
     void upisUtxtBuzenexcel(){
         GordonNewell gordonNewell = new GordonNewell();
         DecimalFormat df = new DecimalFormat("0.0000");
-        File rezultati = new File("C:\\Users\\marko\\IdeaProjects\\PRS\\resenje\\rezultati_analiticki_excel.txt");
+        File rezultati = new File("resenje\\rezultati_analiticki_excel.txt");
         try {
             FileWriter myWriter = new FileWriter(rezultati);
             for(int n = 10 ; n <=20 ; n=n+5){
